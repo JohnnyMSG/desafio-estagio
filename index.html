@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metas Obuc</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <div class="conteudo">
+        <div class="topo">
+            <input type="text"
+                id="inputNovaMeta"
+                placeholder="Adicione uma nova meta"
+                >
+            <button id="btnAddMetas">
+                    <i class="fa fa-plus"></i>
+            </button>
+        </div>
+
+        <ul id="listaMetas">
+        </ul>
+    </div>
+
+    <div id="janelaEdicao">
+        <button id="janelaEdicaoBtnFechar">
+            <i class="fa fa-remove fa-2x"></i>
+        </button>
+        <h2 id="idMetaEdicao">#1021</h2>
+        <hr>
+        <form>
+            <div class="frm-linha">
+                <label for="nome">Nome</label>
+                <input type="text" id="inputMetaNomeEdicao">
+            </div>
+            <div class="frm-linha">
+                <button id="btnAtualizarMeta">Salvar</button>
+            </div>
+        </form>
+    </div>
+    <div id="janelaEdicaoFundo"></div>
+
+    <script src="js/metas.js"></script>
+</body>
+</html>
